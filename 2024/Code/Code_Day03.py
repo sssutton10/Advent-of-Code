@@ -1,7 +1,7 @@
 import re
 
 # Part 1
-prog = ''.join(open('C:/Users/suttos1/Documents/AOC/Input/2023/Day_3.txt', 'r').readlines())
+prog = ''.join(open('C:/Users/sssut/Documents/Python Scripts/Advent of Code/2024/Inputs/Input_Day03.txt', 'r').readlines())
 muls = re.findall(re.compile('mul\\([0-9]{1,3},[0-9]{1,3}\\)'), prog)
 p1 = 0
 for mul in muls:

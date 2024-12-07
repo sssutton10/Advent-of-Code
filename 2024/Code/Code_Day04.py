@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 # Part 1
-ws = open('C:/Users/suttos1/Documents/AOC/Input/2023/Day_4.txt', 'r').readlines()
+ws = open('C:/Users/sssut/Documents/Python Scripts/Advent of Code/2024/Inputs/2024/Input_Day04.txt', 'r').readlines()
 grid = defaultdict(str)
 
 for i, x in enumerate(ws):

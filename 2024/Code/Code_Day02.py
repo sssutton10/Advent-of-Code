@@ -1,4 +1,4 @@
-reports = [[int(y) for y in x.split()] for x in open('C:/Users/suttos1/Documents/AOC/Input/2023/Day_2.txt', 'r').readlines()]
+reports = [[int(y) for y in x.split()] for x in open('C:/Users/sssut/Documents/Python Scripts/Advent of Code/2024/Inputs/Input_Day02.txt', 'r').readlines()]
 
 p1 = 0
 p2 = 0
